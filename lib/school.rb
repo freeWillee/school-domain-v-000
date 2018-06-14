@@ -9,6 +9,10 @@ class School
   end
 
   def add_student(name, grade)
-    @roster[grade] = [name]
+    if @roster == {}
+      @roster[grade] = [name]
+    else
+      @roster.each do |grade_hash, name_array| 
+      end
   end
 end
