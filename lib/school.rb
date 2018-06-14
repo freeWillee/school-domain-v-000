@@ -17,5 +17,6 @@ class School
           name_array << name
         end
       end
+    end
   end
 end
