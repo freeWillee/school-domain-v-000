@@ -2,5 +2,5 @@
 class School
   initialize(name)
     @name = name
-  enacted
+  end
 end
