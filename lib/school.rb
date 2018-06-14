@@ -12,8 +12,10 @@ class School
     if @roster == {}
       @roster[grade] = [name]
     else
-      @roster.each do |grade_hash, name_array|
-        
+      @roster.each do |grade_key, name_array|
+        if grade_key == grade
+          name_array << name
+        end        
       end
   end
 end
