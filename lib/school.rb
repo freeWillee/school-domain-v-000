@@ -25,6 +25,6 @@ class School
   end
 
   def sort
-    @roster[grade_key].sort
+    @roster.sort
   end
 end
